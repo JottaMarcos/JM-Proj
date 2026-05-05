@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM-Analytics | Vitrine de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== HEADER / NAV ========== -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">JM</div>
+                <span class="logo-text">JM Analytics</span>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn active" data-tab="inicio">Início</button>
+                <button class="nav-btn" data-tab="vendas">Vendas</button>
+                <button class="nav-btn" data-tab="automacao">Automação</button>
+                <button class="nav-btn" data-tab="sites">Sites</button>
+                <button class="nav-btn" data-tab="dados">Análise de Dados</button>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== ABA: INÍCIO ========== -->
+    <section id="inicio" class="tab-content active">
+    <div class="hero">
+        <div class="hero-left">
+            <span class="badge"> PORTFÓLIO DE PROJETOS</span>
+            <h1>Projetos que <span class="highlight">transformam</span> negócios.</h1>
+            <p>
+                Cada projeto apresentado aqui foi desenvolvido com autorização 
+                expressa dos clientes. Nada é publicado sem permissão. 
+                Desenvolvemos soluções em <strong>Vendas</strong> (funis e conversão), 
+                <strong>Automação</strong> (processos inteligentes), <strong>Sites</strong> 
+                (presença digital), <strong>Análise de Dados</strong> (decisões baseadas 
+                em números) e <strong>CRM</strong> (relacionamento estruturado). 
+                Cada solução é construída para gerar resultados mensuráveis e 
+                impulsionar o crescimento do seu negócio.
+            </p>
+            <div class="checklist">
+                <div class="check-item">
+                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span>Projetos reais com dados autorizados</span>
+                </div>
+                <div class="check-item">
+                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span>Confidencialidade e sigilo garantidos</span>
+                </div>
+                <div class="check-item">
+                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                    <span>Soluções sob medida para cada desafio</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-image-wrapper">
+                <!-- ESPAÇO RESERVADO PARA SUA IMAGEM -->
+               <img src="reuniao.png" alt="Descrição" />
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ========== ABA: VENDAS ========== -->
+    <section id="vendas" class="tab-content">
+    <div class="page-header">
+        <span class="badge">💰 VENDAS</span>
+        <h2>Projetos de <span class="highlight">Vendas</span></h2>
+        <p>Estratégias e ferramentas para aumentar seu faturamento e converter mais clientes.</p>
+    </div>
+
+    <!-- PROJETO 1: SAAS DASHBOARD -->
+    <div class="project-showcase">
+        <div class="project-showcase-header">
+            <h3>SaaS Analytics Dashboard</h3>
+            <span class="project-tag">Análise Completa de Vendas</span>
+        </div>
+
+        <div class="project-showcase-grid">
+            <!-- LADO ESQUERDO: INSIGHTS -->
+            <div class="insights-panel">
+                <div class="insights-header">
+                    <span class="insights-icon">💡</span>
+                    <h4>Insights Analíticos</h4>
+                </div>
+
+                <div class="insights-content">
+                    <div class="insight-item">
+                        <div class="insight-number">1</div>
+                        <div class="insight-body">
+                            <h5>📊 Retenção & Churn</h5>
+                            <ul>
+                                <li>Taxa de renovação de <strong>59,46%</strong> indica que quase <strong>4 em cada 10 clientes</strong> não renovam — há espaço significativo para estratégias de retenção.</li>
+                                <li>Faturamento perdido de <strong>$196 Mil</strong> é expressivo, especialmente concentrado no plano <strong>Enterprise ($133.770)</strong>.</li>
+                                <li>Apenas <strong>15% de conversão Trial → Pago</strong>, há potencial de melhoria no onboarding.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="insight-item">
+                        <div class="insight-number">2</div>
+                        <div class="insight-body">
+                            <h5>📦 Análise por Plano</h5>
+                            <ul>
+                                <li>Plano <strong>Basic</strong> domina em volume (33% das transações), mas o <strong>Enterprise</strong> lidera em faturamento perdido.</li>
+                                <li>Plano <strong>Professional</strong> apresenta bom equilíbrio entre volume e receita, candidato a foco para upsell.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="insight-item">
+                        <div class="insight-number">3</div>
+                        <div class="insight-body">
+                            <h5>🏢 Setores Estratégicos</h5>
+                            <ul>
+                                <li><strong>Educação e Financeiro</strong> são os setores mais rentáveis, somando mais de $500 Mil em receita.</li>
+                                <li>Educação também é o setor mais problemático em churn (<strong>30,83% dos clientes em risco</strong>).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="insight-item">
+                        <div class="insight-number">4</div>
+                        <div class="insight-body">
+                            <h5>🗺️ Distribuição Regional</h5>
+                            <ul>
+                                <li><strong>Bahia (BA)</strong> lidera o ranking de receita por região ($340,1 Mil), superando São Paulo.</li>
+                                <li><strong>SP e RJ</strong> concentram volume, mas não necessariamente maior ticket médio.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="insight-item">
+                        <div class="insight-number">5</div>
+                        <div class="insight-body">
+                            <h5>💳 Pagamentos</h5>
+                            <ul>
+                                <li><strong>77,88% dos pagamentos</strong> estão em dia (Pago), com 13,16% Pendente e 8,96% Cancelado.</li>
+                                <li><strong>PIX e Boleto</strong> têm distribuição similar (1.221 vs 1.283).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LADO DIREITO: DASHBOARD AO VIVO -->
+            <div class="dashboard-panel">
+                <div class="dashboard-header">
+                    <span class="dashboard-icon">📈</span>
+                    <h4>Dashboard Ao Vivo</h4>
+                    <span class="live-indicator">
+                        <span class="live-dot"></span>
+                        Ao Vivo
+                    </span>
+                </div>
+                <div class="dashboard-container">
+                    <iframe 
+                        src="https://jottamarcos.github.io/Saas_/" 
+                        title="SaaS Analytics Dashboard"
+                        class="dashboard-iframe"
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ========== ABA: AUTOMAÇÃO ========== -->
+    <section id="automacao" class="tab-content">
+    <div class="page-header">
+        <span class="badge">⚡ AUTOMAÇÃO</span>
+        <h2>Projetos de <span class="highlight">Automação</span></h2>
+        <p>Automatize processos repetitivos e ganhe tempo para focar no que realmente importa.</p>
+    </div>
+
+    <!-- PROJETO: AUTOMAÇÃO TRADICIONAL VS IA -->
+    <div class="project-showcase">
+        <div class="project-showcase-header">
+            <h3>Automação de Processos: Tradicional vs Inteligência Artificial</h3>
+            <span class="project-tag">Comparativo Completo</span>
+        </div>
+
+        <!-- VÍDEOS LADO A LADO -->
+        <div class="videos-comparison">
+            <div class="video-card">
+                <div class="video-badge">SEM IA</div>
+                <div class="video-wrapper">
+                    <video controls class="project-video" poster="automacao/poster-semia.png">
+                        <source src="automacao/semIA.mp4" type="video/mp4">
+                        <source src="automacao/semIA.webm" type="video/webm">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+                <div class="video-info">
+                    <h4>Automação Tradicional</h4>
+                    <p>Fluxos de trabalho automatizados usando regras pré-definidas e gatilhos manuais. Ideal para processos estruturados e repetitivos.</p>
+                    <div class="video-meta">
+                        <span class="meta-item">🔧 Ferramentas: Zapier, Make, n8n</span>
+                        <span class="meta-item">⏱️ Implementação: 2-5 dias</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card featured">
+                <div class="video-badge badge-ai">COM IA</div>
+                <div class="video-wrapper">
+                    <video controls class="project-video" poster="automacao/poster-comia.png">
+                        <source src="automacao/comIA.mp4" type="video/mp4">
+                        <source src="automacao/comIA.webm" type="video/webm">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+                <div class="video-info">
+                    <h4>Automação com IA</h4>
+                    <p>Processos inteligentes que aprendem e se adaptam. Tomada de decisão automatizada com machine learning e processamento de linguagem natural.</p>
+                    <div class="video-meta">
+                        <span class="meta-item">🤖 IA: OpenAI, Google AI, Anthropic</span>
+                        <span class="meta-item">⏱️ Implementação: 5-10 dias</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TEXTO EXPLICATIVO -->
+        <div class="automation-explanation">
+            <div class="explanation-header">
+                <span class="explanation-icon">📚</span>
+                <h3>Entenda as Diferenças</h3>
+            </div>
+
+            <div class="explanation-grid">
+                <div class="explanation-content">
+                    <h4>🎯 Quando usar cada abordagem?</h4>
+                    
+                    <div class="comparison-box">
+                        <div class="comparison-col">
+                            <h5>Sem IA - Automação Tradicional</h5>
+                            <ul>
+                                <li><strong>Processos repetitivos:</strong> Tarefas que seguem sempre o mesmo padrão</li>
+                                <li><strong>Regras claras:</strong> Quando você pode definir "se isso, então aquilo"</li>
+                                <li><strong>Dados estruturados:</strong> Informações organizadas em campos definidos</li>
+                                <li><strong>Custo menor:</strong> Implementação mais rápida e barata</li>
+                                <li><strong>Exemplos:</strong> Envio de emails automáticos, integração entre apps, notificações</li>
+                            </ul>
+                        </div>
+
+                        <div class="comparison-col">
+                            <h5>Com IA - Automação Inteligente</h5>
+                            <ul>
+                                <li><strong>Processos complexos:</strong> Tarefas que exigem interpretação</li>
+                                <li><strong>Decisões contextuais:</strong> Quando a resposta depende de análise</li>
+                                <li><strong>Dados não estruturados:</strong> Textos, imagens, áudios</li>
+                                <li><strong>Aprendizado:</strong> Sistema melhora com o tempo</li>
+                                <li><strong>Exemplos:</strong> Classificação de leads, análise de sentimentos, chatbots inteligentes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="key-insights">
+                        <h4>💡 Insights Importantes</h4>
+                        <div class="insights-grid">
+                            <div class="insight-card">
+                                <div class="insight-icon">💰</div>
+                                <div>
+                                    <strong>Custo-Benefício</strong>
+                                    <p>Automação tradicional tem ROI mais rápido, mas IA traz resultados exponenciais a longo prazo</p>
+                                </div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-icon">📈</div>
+                                <div>
+                                    <strong>Escalabilidade</strong>
+                                    <p>IA permite lidar com volumes maiores e cenários imprevistos sem reconfiguração</p>
+                                </div>
+                            </div>
+                            <div class="insight-card">
+                                <div class="insight-icon">🔄</div>
+                                <div>
+                                    <strong>Híbrido é Possível</strong>
+                                    <p>Você pode começar sem IA e evoluir para automação inteligente gradualmente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MÉTRICAS COMPARATIVAS -->
+        <div class="metrics-comparison">
+            <h3>Comparativo de Resultados</h3>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Economia de Tempo</div>
+                    <div class="metric-compare">
+                        <div class="metric-bar traditional">
+                            <span class="bar-fill" style="width: 60%"></span>
+                            <span class="bar-value">60%</span>
+                        </div>
+                        <div class="metric-bar ai">
+                            <span class="bar-fill" style="width: 85%"></span>
+                            <span class="bar-value">85%</span>
+                        </div>
+                    </div>
+                    <div class="metric-legend">
+                        <span>Sem IA: 60%</span>
+                        <span>Com IA: 85%</span>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-label">Precisão</div>
+                    <div class="metric-compare">
+                        <div class="metric-bar traditional">
+                            <span class="bar-fill" style="width: 75%"></span>
+                            <span class="bar-value">75%</span>
+                        </div>
+                        <div class="metric-bar ai">
+                            <span class="bar-fill" style="width: 95%;"></span>
+                            <span class="bar-value">95%</span>
+                        </div>
+                    </div>
+                    <div class="metric-legend">
+                        <span>Sem IA: 75%</span>
+                        <span>Com IA: 95%</span>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-label">Custo Inicial</div>
+                    <div class="metric-compare">
+                        <div class="metric-bar traditional">
+                            <span class="bar-fill" style="width: 40%"></span>
+                            <span class="bar-value">Baixo</span>
+                        </div>
+                        <div class="metric-bar ai">
+                            <span class="bar-fill" style="width: 75%"></span>
+                            <span class="bar-value">Médio</span>
+                        </div>
+                    </div>
+                    <div class="metric-legend">
+                        <span>Sem IA: Baixo</span>
+                        <span>Com IA: Médio</span>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-label">ROI a Longo Prazo</div>
+                    <div class="metric-compare">
+                        <div class="metric-bar traditional">
+                            <span class="bar-fill" style="width: 65%"></span>
+                            <span class="bar-value">65%</span>
+                        </div>
+                        <div class="metric-bar ai">
+                            <span class="bar-fill" style="width: 95%"></span>
+                            <span class="bar-value">95%</span>
+                        </div>
+                    </div>
+                    <div class="metric-legend">
+                        <span>Sem IA: 65%</span>
+                        <span>Com IA: 95%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ========== ABA: SITES ========== -->
+    <section id="sites" class="tab-content">
+    <div class="page-header">
+        <span class="badge">🌐 SITES</span>
+        <h2>Projetos de <span class="highlight">Sites</span></h2>
+        <p>Sites profissionais, responsivos e otimizados para converter visitantes em clientes.</p>
+    </div>
+
+    <!-- PROJETOS DE SITES -->
+    <div class="project-showcase">
+        <div class="project-showcase-header">
+            <h3>Sites Institucionais & Landing Pages</h3>
+            <span class="project-tag">HTML • CSS • JavaScript</span>
+        </div>
+
+        <!-- GRID DE SITES -->
+        <div class="sites-grid">
+            <!-- SITE 1: ENERGIA SOLAR -->
+            <div class="site-card">
+                <div class="site-badge">Energia Solar</div>
+                <div class="site-iframe-wrapper">
+                    <iframe 
+                        src="https://jottamarcos.github.io/Luzzz/" 
+                        title="Site Energia Solar"
+                        class="site-iframe"
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="site-info">
+                    <h4>Site Energia Solar</h4>
+                    <p>Site institucional completo para empresa de energia solar, focado em conversão de leads e apresentação de soluções sustentáveis.</p>
+                    <div class="site-meta">
+                        <div class="meta-tag">HTML5</div>
+                        <div class="meta-tag">CSS3</div>
+                        <div class="meta-tag">JavaScript</div>
+                        <div class="meta-tag">Responsivo</div>
+                    </div>
+                    <a href="https://jottamarcos.github.io/Luzzz/" target="_blank" class="site-link">
+                        Visitar Site →
+                    </a>
+                </div>
+            </div>
+
+            <!-- SITE 2: PET SHOP -->
+            <div class="site-card">
+                <div class="site-badge badge-pet">Pet Shop</div>
+                <div class="site-iframe-wrapper">
+                    <iframe 
+                        src="https://jottamarcos.github.io/Pet/" 
+                        title="Site Pet Shop"
+                        class="site-iframe"
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="site-info">
+                    <h4>Site Pet Shop</h4>
+                    <p>Site moderno e interativo para pet shop, com catálogo de serviços, galeria de fotos e integração com WhatsApp para agendamentos.</p>
+                    <div class="site-meta">
+                        <div class="meta-tag">HTML5</div>
+                        <div class="meta-tag">CSS3</div>
+                        <div class="meta-tag">JavaScript</div>
+                        <div class="meta-tag">Responsivo</div>
+                    </div>
+                    <a href="https://jottamarcos.github.io/Pet/" target="_blank" class="site-link">
+                        Visitar Site →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESCRIÇÃO DOS PROJETOS -->
+        <div class="sites-description">
+            <div class="desc-header">
+                <span class="desc-icon">💻</span>
+                <h3>Desenvolvimento de Sites Profissionais</h3>
+            </div>
+            
+            <div class="desc-content">
+                <div class="desc-item">
+                    <h4>🎯 O que entregamos:</h4>
+                    <ul>
+                        <li><strong>Design Responsivo:</strong> Seu site perfeito em qualquer dispositivo (celular, tablet, desktop)</li>
+                        <li><strong>Performance Otimizada:</strong> Carregamento rápido para melhor experiência e SEO</li>
+                        <li><strong>Código Limpo:</strong> HTML5, CSS3 e JavaScript puro (sem dependências pesadas)</li>
+                        <li><strong>Foco em Conversão:</strong> Layouts pensados para transformar visitantes em clientes</li>
+                        <li><strong>SEO Básico:</strong> Estrutura otimizada para mecanismos de busca</li>
+                    </ul>
+                </div>
+
+                <div class="desc-item">
+                    <h4>🛠️ Tecnologias Utilizadas:</h4>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <span class="tech-icon">📄</span>
+                            <strong>HTML5</strong>
+                            <p>Estrutura semântica e acessível</p>
+                        </div>
+                        <div class="tech-card">
+                            <span class="tech-icon">🎨</span>
+                            <strong>CSS3</strong>
+                            <p>Design moderno e animações</p>
+                        </div>
+                        <div class="tech-card">
+                            <span class="tech-icon">⚡</span>
+                            <strong>JavaScript</strong>
+                            <p>Interatividade e funcionalidades</p>
+                        </div>
+                        <div class="tech-card">
+                            <span class="tech-icon">📱</span>
+                            <strong>Responsivo</strong>
+                            <p>Adaptável a todos os dispositivos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="desc-item">
+                    <h4>📊 Resultados Esperados:</h4>
+                    <div class="results-grid">
+                        <div class="result-card">
+                            <div class="result-number">+40%</div>
+                            <div class="result-text">Aumento na credibilidade da marca</div>
+                        </div>
+                        <div class="result-card">
+                            <div class="result-number">+60%</div>
+                            <div class="result-text">Mais conversões de visitantes</div>
+                        </div>
+                        <div class="result-card">
+                            <div class="result-number">-50%</div>
+                            <div class="result-text">Redução na taxa de rejeição</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ========== ABA: ANÁLISE DE DADOS ========== -->
+    <section id="dados" class="tab-content">
+    <div class="page-header">
+        <span class="badge">📊 ANÁLISE DE DADOS</span>
+        <h2>Projetos de <span class="highlight">Análise de Dados</span></h2>
+        <p>Dashboards interativos, relatórios automatizados e insights que transformam números em decisões estratégicas.</p>
+    </div>
+
+    <div class="project-showcase">
+        <div class="project-showcase-header">
+            <h3>Dashboard de E-commerce - Analytics Pro</h3>
+            <span class="project-tag">Power BI • Excel • Python • SQL</span>
+        </div>
+
+        <!-- DASHBOARD AO VIVO (ou gráficos locais) -->
+        <div class="dashboard-embed">
+            <div class="embed-header">
+                <span class="embed-icon">📈</span>
+                <h4>Visão Geral de Performance</h4>
+                <span class="live-indicator"><span class="live-dot"></span>Dados Atualizados</span>
+            </div>
+            <div class="embed-container">
+                <!-- OPÇÃO 1: IFRAME DO SEU DASHBOARD (descomente e use) -->
+                <!-- 
+                <iframe 
+                    src="SEU_LINK_AQUI" 
+                    title="Dashboard Analytics"
+                    class="data-iframe"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe> 
+                -->
+
+                <!-- OPÇÃO 2: GRÁFICOS LOCAIS COM CHART.JS (já configurado) -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h5>Vendas por Canal</h5>
+                        <canvas id="channelChart"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <h5>Evolução Mensal</h5>
+                        <canvas id="trendChart"></canvas>
+                    </div>
+                    <div class="chart-card full-width">
+                        <h5>Funil de Conversão</h5>
+                        <canvas id="funnelChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPIs PRINCIPAIS -->
+        <div class="kpi-row">
+            <div class="kpi-card positive">
+                <div class="kpi-value">R$ 284.5K</div>
+                <div class="kpi-label">Faturamento Mensal</div>
+                <div class="kpi-delta">▲ +23% vs mês anterior</div>
+            </div>
+            <div class="kpi-card positive">
+                <div class="kpi-value">3,2%</div>
+                <div class="kpi-label">Taxa de Conversão</div>
+                <div class="kpi-delta">▲ Acima da média (2,1%)</div>
+            </div>
+            <div class="kpi-card neutral">
+                <div class="kpi-value">R$ 187,50</div>
+                <div class="kpi-label">Ticket Médio</div>
+                <div class="kpi-delta">• Estável</div>
+            </div>
+            <div class="kpi-card warning">
+                <div class="kpi-value">4,8%</div>
+                <div class="kpi-label">Churn Mensal</div>
+                <div class="kpi-delta">▼ Atenção: meta é 3%</div>
+            </div>
+        </div>
+
+        <!-- INSIGHTS & ANÁLISE -->
+        <div class="analysis-breakdown">
+            <div class="analysis-card">
+                <div class="analysis-icon">🔍</div>
+                <div>
+                    <h5>Diagnóstico Principal</h5>
+                    <p>Tráfego orgânico representa 45% das vendas, mas tem menor ticket médio. Oportunidade: criar campanhas de upsell específicas para esse segmento.</p>
+                </div>
+            </div>
+            <div class="analysis-card">
+                <div class="analysis-icon">🎯</div>
+                <div>
+                    <h5>Ação Recomendada</h5>
+                    <p>Implementar segmentação por comportamento de navegação para personalizar ofertas e aumentar conversão em 15-20%.</p>
+                </div>
+            </div>
+            <div class="analysis-card">
+                <div class="analysis-icon">⚡</div>
+                <div>
+                    <h5>Impacto Esperado</h5>
+                    <p>Com as ajustes propostos: +R$ 42K/mês em receita recorrente e redução do CAC em 18%.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- METODOLOGIA -->
+        <div class="methodology-section">
+            <h3>Como Foi Feito</h3>
+            <div class="methodology-steps">
+    <div class="method-step">
+        <div class="method-step-header">
+            <span class="method-num">1</span>
+            <strong>Coleta & Limpeza</strong>
+        </div>
+        <p>Integração de fontes (Google Analytics, CRM, ERP) com tratamento de dados em Python/Pandas</p>
+    </div>
+    
+    <div class="method-step">
+        <div class="method-step-header">
+            <span class="method-num">2</span>
+            <strong>Modelagem</strong>
+        </div>
+        <p>Criação de métricas calculadas, segmentações dinâmicas e regras de negócio no Power BI</p>
+    </div>
+    
+    <div class="method-step">
+        <div class="method-step-header">
+            <span class="method-num">3</span>
+            <strong>Visualização</strong>
+        </div>
+        <p>Design focado em usabilidade: filtros intuitivos, drill-down e alertas visuais para anomalias</p>
+    </div>
+    
+    <div class="method-step">
+        <div class="method-step-header">
+            <span class="method-num">4</span>
+            <strong>Automação</strong>
+        </div>
+        <p>Atualização automática dos dados via gateway + distribuição de relatórios por e-mail</p>
+    </div>
+</div>
+</section>
+<!-- ========== FOOTER ========== -->
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+        <div class="footer-center">
+            <p>© 2026 JM Analytics. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
